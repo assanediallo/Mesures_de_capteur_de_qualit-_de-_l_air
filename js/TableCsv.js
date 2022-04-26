@@ -9,8 +9,8 @@ export default class {
     /**
      * Efface les données actuelles du tableau HTML et le remplace par de nouvelles données
      * 
-     * @param {*} data Un array 2D de données à utiliser comme corps de notre jolie tableau
-     * @param {*} headerColumns liste les titres des colonnes 
+     * @param {string[]} data Un array 2D de données à utiliser comme corps de notre jolie tableau
+     * @param {string[]} headerColumns liste les titres des colonnes 
      */
     update(data, headerColumns = []) {
         this.clear();
